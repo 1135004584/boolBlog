@@ -1,0 +1,21 @@
+.dater{font:bold 12px Arial, Helvetica, sans-serif;margin:0;padding-top:10px;color:#bbbbbb;}
+a{text-decoration:none;color:#000;}
+
+/* clock */
+.clock{width:300px;margin:0 auto;padding:10px;color:#000;}
+.clock #Date{font-family:'BebasNeueRegular', Arial, Helvetica, sans-serif;font-size:16px;text-align:center;}
+.clock ul{width:300px;margin:0 auto;padding:0px;list-style:none;text-align:center;}
+.clock ul li{display:inline;font-size:3em;text-align:center;font-family:'BebasNeueRegular', Arial, Helvetica, sans-serif;}
+#point{position:relative;-moz-animation:mymove 1s ease infinite;-webkit-animation:mymove 1s ease infinite;padding-left:10px;padding-right:10px;}
+@-webkit-keyframes mymove{
+    0%{opacity:1.0;}
+    50%{opacity:0;text-shadow:none;}
+    100%{opacity:1.0;}
+}
+
+
+@-moz-keyframes mymove{
+    0%{opacity:1.0;}
+    50%{opacity:0;text-shadow:none;}
+    100%{opacity:1.0;}
+}
