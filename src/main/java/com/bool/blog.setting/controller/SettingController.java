@@ -33,7 +33,6 @@ public class SettingController {
     }
 
     //保存设置信息
-
     @RequestMapping("saveSettingInfo")
     @ResponseBody
     public Map<String,String> saveSettingInfo(BlogWebsiteSettingEntity blogWebsiteSettingEntity)
