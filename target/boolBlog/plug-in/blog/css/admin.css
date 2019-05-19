@@ -1,0 +1,24 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+html{
+    height: 100%;
+}
+body{
+    background-image: url("../images/Shipyard_EN-CN13311426310_1920x1080.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+}
+
+.login-container
+{
+    height:100%;
+}
+.login-cell
+{
+    border:1px solid red;
+    vertical-align: middle;
+
+}

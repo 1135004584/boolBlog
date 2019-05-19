@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="boolBlog:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>boolBlog</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="boolBlog.war">
+      <element id="artifact" artifact-name="boolBlog:war exploded" />
+    </root>
+  </artifact>
+</component>
